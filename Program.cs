@@ -1,0 +1,10 @@
+﻿using exercitiu3;
+Masina masina=new Masina("Dacia",500,2021,1000);
+masina.Producator="Renault";
+masina.SetAutonime(600);
+Console.WriteLine(masina);
+Masina masina1=new Masina("ford",459,2020,15000);
+Dealer dealer=new Dealer();
+dealer.AdaugaMasina(masina);
+dealer.AdaugaMasina(masina);
+dealer.AfiseazaMasiniCuDiscount(50);
